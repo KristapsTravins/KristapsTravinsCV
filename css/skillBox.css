@@ -1,0 +1,83 @@
+.box{
+   
+    margin: 16px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.box_title{
+
+    margin: 0 0 0 0;
+    height:45px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    
+}
+.box_title > h4 {
+    font-size: 30px;
+     margin: 0 0 1px 0px ;
+     font-family: 'Roboto Condensed', sans-serif;
+     padding: 0 0 0 0;
+}
+.skill_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.skill_icons > img{
+    height: 100px;
+    width: 100px;
+    padding: 0 10px 0 0;
+}
+#work_exp > h4{
+    width: 100%;
+    border-bottom: 0.1px black solid;
+
+}
+.work_details{
+    margin: 3px 0 0 0;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.work_details > div{
+height: 30px;
+
+}
+.work_details>div>h5{
+    margin: 0 0 0 0;
+}
+.work_details > .work_title > h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    height: 25px;
+    width: 100%;
+}
+.work_details > .work_desc > h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    height: 25px;
+    width: 100%;
+    color: gray;   
+}
+.work_details > .work_dates > h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    height: 25px;
+    width: 100%;
+    color: gray;   
+}
+#work{
+    margin: -9% 0 0 0;
+}
+.owerline{
+    border-top: 0.1px black solid;
+}
+.listed_work{
+    display: flex;
+    flex-direction: column;
+}

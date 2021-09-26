@@ -1,3 +1,7 @@
+html{
+  display:flex;
+  scroll-behavior: smooth;
+}
 body{
     margin-right: auto;
     margin-left: auto;
@@ -11,6 +15,7 @@ header{
     flex-direction: row;
     height: 100px;
     width: 100%;
+    margin: 0 0 0 0;
 }
 .name_logo_box{
     max-width: 500px;
@@ -68,13 +73,14 @@ section{
     display:flex;
     flex-direction: column;
     justify-content: center;
+   
 
 }
 .description_box{
  
     height: 500px;
     margin: 120px 0 0 0;
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -93,6 +99,7 @@ section{
     height: 100%;
     display: flex;
     align-items: center;
+    padding: 0 0 0 46px;
 }
 .description_frame{
     margin: -160px 0 0 0;
@@ -116,82 +123,30 @@ section{
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-.educat_box{
-    width: 100%;
-    margin: 125px 0 -345px 0px;
-    height: 700px;
-    display: flex;
-    justify-content: center;
+/* addititional non important styles */
+.description_frame > h4 > span:nth-child(1) {
+    color: #4285F4;
+    font-size: 25px;
 }
-.educat_title{
-    width: 100%;
-    height: 40px;
-   
+.description_frame > h4 > span:nth-child(2) {
+    color: #EA4335;
+    font-size: 25px;
 }
-.educat_title > h4{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 23px;
-    height: 25px;
-    line-height: 7px;
-    width: 100%;
-    border-bottom: black 1px solid;
+.description_frame > h4 > span:nth-child(3) {
+    color:#FBBC05 ;
+    font-size: 25px;
 }
-.educat_desc {
-    margin: -40px 0 0 0;
-    height: 46px;
-    width: 100%;
-   
+.description_frame > h4 > span:nth-child(4) {
+    color: #4285F4;
+    font-size: 25px;
 }
-.educat_desc > h4{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 23px;
-    height: 25px;
-    width: 100%;
-    text-align: left;
-    margin-top: 44px;
-   
+.description_frame > h4 > span:nth-child(5) {
+    color: #34A853;
+    font-size: 25px;
 }
-.educat_desc > h5{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    line-height: 2px;
-    margin: -16px 0 0 0;
-    color:gray;
-    
+.description_frame > h4 > span:nth-child(6) {
+    color: #EA4335;
+    font-size: 25px;
 }
-.educat_desc > h6{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    margin-top: 10px;
-    
-}
-#one{
-    margin: 0 0 0 0;
-}
-#two{
-    margin: 36px 0 0 0;
-}
-.exp_box{
-    width: 100%;
-    margin: 10px 0 0 0;
-    height: 700px;
-    display: flex;
-    justify-content: center;
 
-}
-.skill_box{
-    height: 100px;
-    width: 100%;
-    
-}
-.skillBox > img {
-    width:100px;
-    height: 100px;
-    padding: 10px;
-    margin: -15px 10px 0px -2px;
-}
-.skillBox{
-    display: flex;
-    justify-content: center;
-}
 

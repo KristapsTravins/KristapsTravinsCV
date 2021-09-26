@@ -1,0 +1,56 @@
+.mailbox_main{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 500px;
+
+}
+.mailbox_logo{
+  width: 100%;
+  margin: 0 0 0 0;
+}
+.mailbox_logo > h3 {
+    font-size: 30px;
+    margin: 0 0 1px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+  
+}
+.form_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+.row{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding:1px 0 0 0;
+    margin: 2px 0 0 0;
+    justify-content: space-between;
+}
+.row > input{
+    width: 47%;
+    padding: 4px 0 0 8px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 4px 0 0 0;
+}
+.row > textarea{
+    resize: none;
+    width: 100%;
+    margin: 4px 0 0 0 ;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+#text_areaa{
+    height: 200px;
+}
+form{
+    margin: 0 0 0 0;
+}
+#butn{
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}

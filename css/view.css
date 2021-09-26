@@ -28,6 +28,7 @@ justify-content: center;
   @media (max-width:978px) {
     section{
         justify-content: center;
+        width: 100%;
       }
       .description_outer{
        
@@ -35,6 +36,7 @@ justify-content: center;
         width: 100%;
         flex-direction: column;
         align-items:center;
+        padding: 0 0 0 0px;
       }
     .description_box{
         width: 100%;
@@ -87,16 +89,39 @@ justify-content: center;
     width: 100%;
     
 }
-.skillBox > img {
-    height: 8vh;
-    width: 11.5vw;
-    padding: 10px;
-    margin: -15px 10px 0px -2px;
-}
+
 .skillBox{
     display: flex;
     justify-content: center;
 }
+#text_areaa {
+  display: flex;
+  justify-content: center;
+  height: 226px;
+  margin: 6px 0 0 0;
+  width: 100%;
+ 
+}
+body{
 
+  width: 490px;
+}
+.skill_icons >img{
+  width: 11vh;
+  height: 18vw;
+  max-width: 100px;
+  margin: 15px 0 -46px -3px;
+  max-height: 100px;
+}
+.row > input{
+  border: 0.1px solid darkgray;
+  font-size:2vh;
+}
+.row > textarea{
+  font-size: 2vh;
+  border: 0.1px solid darkgray;
+}
+
+}
       
-  }
+  
