@@ -31,7 +31,7 @@
     width: 100px;
     padding: 0 10px 0 0;
 }
-#work_exp > h4{
+.box_title > h4{
     width: 100%;
     border-bottom: 0.1px black solid;
 
