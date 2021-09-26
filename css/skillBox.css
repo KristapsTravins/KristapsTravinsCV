@@ -62,14 +62,14 @@ height: 30px;
     font-size: 18px;
     height: 25px;
     width: 100%;
-    color: gray;   
+    color: darkgrey;   
 }
 .work_details > .work_dates > h5{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     height: 25px;
     width: 100%;
-    color: gray;   
+    color: darkgray;   
 }
 #work{
     margin: -9% 0 0 0;
